@@ -1,9 +1,9 @@
+import Create from "./create/page";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start p-24">
-      <div className="text-4xl">Home Page</div>
-      <div className="bg-blue-500">Test tailwind</div>
+      <h1 className="text-4xl p-2 m-2">Home Page</h1>
     </main>
   );
 }
