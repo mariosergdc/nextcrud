@@ -1,4 +1,6 @@
 import React from 'react'
+import { IoIosHome } from 'react-icons/io'
+import { MdMarkEmailRead, MdOutlinePhone } from 'react-icons/md'
 
 const Cv = () => {
   return (
@@ -73,10 +75,9 @@ const Cv = () => {
 
 			<section className="flex flex-col items-start py-2 px-6 m-2">
 				<h2 className="text-xl mb-4">Contact Me</h2>
-				<div>Direction: Holguín ,Cuba</div>
-				<div>Mobile: +53 58595831</div>
-				<div>Email: mariosergdc.webdev@gmail.com</div>
-				<div>Direction: Holguín ,Cuba</div>
+				<div className="flex items-center gap-2"><MdOutlinePhone/>Mobile: +53 58595831</div>
+				<div className="flex items-center gap-2"><MdMarkEmailRead />Email: mariosergdc.webdev@gmail.com</div>
+				<div className="flex items-center gap-2"><IoIosHome />Direction: Holguín ,Cuba</div>
 			</section>
         </div>
        
