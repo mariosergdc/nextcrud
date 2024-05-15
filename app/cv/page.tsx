@@ -4,10 +4,12 @@ import { MdMarkEmailRead, MdOutlinePhone } from 'react-icons/md'
 
 const Cv = () => {
   return (
-    <div className='bg-blue-100 w-8/12 min-h-svh m-auto bg-gradient-to-br from-black/75 to-white'>
-        <div className='w-full grid grid-cols-2 p-2'>
+    <div className='bg-blue-100 w-8/12 text-white  m-auto bg-gradient-to-b from-cyan-500 to-blue-500 font-serif'>
+		
+		<div className='w-full grid grid-cols-2 p-2 z-10 relative'>
+		<div className="back -z-10"></div>
         <section className="flex flex-col items-start  px-6 m-2">
-				<h1 className="text-4xl">Mario Sergio</h1><h1 className="text-3xl"> Domínguez Consuegra</h1>
+				<h1 className=" text-4xl pt-4">Mario Sergio</h1><h1 className="text-3xl"> Domínguez Consuegra</h1>
 				<h2 className="text-2xl">Front-End Developer</h2>
 				<div className="flex items-center justify-center py-6">
 					<div className="bar-circle">
@@ -19,7 +21,7 @@ const Cv = () => {
 					</div>
 				</div>
 			</section>
-            <section className='p-6 m-2 '><img className='rounded-lg' src="/beach-house.jpg" alt="" /></section>
+            <section className='p-6 m-2 '><img className='porfile-img rounded-xl w-80 h-64' src="/porfile.jpg" alt="" /></section>
             <section className="flex flex-col items-start py-2 px-6 m-2">
 				<h2 className="text-xl mb-4">Expertise Skill</h2>
 				<ul className="list-disc pl-6">
@@ -80,6 +82,8 @@ const Cv = () => {
 				<div className="flex items-center gap-2"><IoIosHome />Direction: Holguín ,Cuba</div>
 			</section>
         </div>
+		
+        
        
     </div>
   )

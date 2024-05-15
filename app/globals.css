@@ -25,3 +25,18 @@
 	background: rgb(64, 180, 255);
 	border-radius: 10px;
 }
+
+.back {
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+background-image: conic-gradient(#1d3e6f   0%, #1d3e6f  23%,#00204d  23.2%, #00204d   73%, #2b4c80  73.2%, #2b4c80 100%);
+background-position:  40% 70%;
+background-size: 200% 200%;
+}
+
+.porfile-img{
+	box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
