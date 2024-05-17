@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bar-circle {
-	height: 60%;
+	height: 70%;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
@@ -29,14 +29,15 @@
 .back {
 	top: 0;
 	height: 100%;
-	width: 100%;
+	width: 100%;/*0e0b16 a239ca 4717f6 e7dfdd*/
 	position: absolute;
-background-image: conic-gradient(#1d3e6f   0%, #1d3e6f  23%,#00204d  23.2%, #00204d   73%, #2b4c80  73.2%, #2b4c80 100%);
-background-position:  40% 70%;
+background-image: conic-gradient(#0c0524cc   0%, #ffffff  23%,#333236cc  23.2%, #212024cc   73%, #ffffff  73.2%, #ffffff 100%);
+background-position:  40% 62%;
 background-size: 200% 200%;
 }
 
 .porfile-img{
-	box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+	box-shadow:  5px 5px 14px #777777,
+             -5px -5px 14px #ffffff;
+	object-fit: cover;
 }
