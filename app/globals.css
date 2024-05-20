@@ -40,4 +40,5 @@ background-size: 200% 200%;
 	box-shadow:  5px 5px 14px #777777,
              -5px -5px 14px #ffffff;
 	object-fit: cover;
+	border: 2px solid white;
 }
