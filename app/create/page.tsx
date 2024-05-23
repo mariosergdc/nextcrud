@@ -9,7 +9,7 @@ const Create = () => {
   }
   const [product, setProduct] = useState(initialState)
 
-  const handleChange=(e)=>{
+  const handleChange=(e:React.ChangeEvent<HTMLInputElement>)=>{
     setProduct(
       {
         ...product,
@@ -19,7 +19,7 @@ const Create = () => {
 
   }
 
-  const handleInsert= async (e:React.MouseEvent)=>{
+  const handleInsert= async (e:React.FormEvent<HTMLFormElement>)=>{
     e.preventDefault()
     axios.post("/api/products",product)
     .then((res)=>res.data)
